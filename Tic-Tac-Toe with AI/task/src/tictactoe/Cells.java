@@ -1,7 +1,6 @@
 package tictactoe;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Cells {
     private final String[][] cells = new String[4][4];

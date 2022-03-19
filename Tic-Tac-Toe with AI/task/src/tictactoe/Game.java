@@ -30,10 +30,10 @@ public class Game {
     }
 
     public void play() {
-        for(;;) {
+        while (true) {
             checkInput();
             cells.createCells();
-            while (checkWin()) {
+            while (!checkWin()) {
                 getPlayerOne().turn();
                 System.out.println(cells);
                 if (checkWin()) {
